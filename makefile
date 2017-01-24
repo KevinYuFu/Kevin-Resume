@@ -1,3 +1,5 @@
+FILE = "resume"
+
 all:
 	@echo "Compiling..."
-	lualatex resume.tex
+	lualatex $(FILE).tex
