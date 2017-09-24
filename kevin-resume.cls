@@ -34,21 +34,6 @@
 \setsansfont[Scale=MatchLowercase,Mapping=tex-text, Path = fonts/raleway/]{Raleway-ExtraLight} % The font used where \sfffamily is called
 
 %----------------------------------------------------------------------------------------
-%	LAST UPDATED COMMAND
-%----------------------------------------------------------------------------------------
-
-\usepackage[absolute]{textpos} % Required for positioning the Last Updated text at the top right of the page
-\usepackage[UKenglish]{isodate} % Prints the Last Updated date in UK English format
-
-\setlength{\TPHorizModule}{0.01\paperwidth} % Sets the units for the horizontal position used in the \begin{textblock} argument
-\setlength{\TPVertModule}{0.01\paperwidth} % Sets the units for the vertical position used in the \begin{textblock} argument
-\newcommand{\lastupdated}{ % Create a new command for printing the Last Updated text
-\begin{textblock}{25}(75,2) % The position of the Last Updated text on the page (75% of the page across, 2% down)
-\color{date}\fontspec[Path = fonts/raleway/]{Raleway-ExtraLight}\fontsize{8pt}{10pt}\selectfont % Text styling of the text
-Last Updated on \today % Last Updated text
-\end{textblock}}
-
-%----------------------------------------------------------------------------------------
 %	MAIN HEADING COMMAND
 %----------------------------------------------------------------------------------------
 
