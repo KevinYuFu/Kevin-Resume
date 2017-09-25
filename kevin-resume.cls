@@ -8,7 +8,7 @@
 \ProcessOptions\relax
 \LoadClass{article}
 
-\usepackage[hmargin=1.25cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
+\usepackage[hmargin=0.50cm, vmargin=0.75cm]{geometry} % Specifies horizontal and vertical page margins
 \usepackage[hidelinks]{hyperref} % Required for links
 
 %----------------------------------------------------------------------------------------
@@ -21,8 +21,9 @@
 \definecolor{headings}{HTML}{006A6A} % The color of the large sections
 \definecolor{duration}{HTML}{5A6A7A} % The color of the large sections
 \definecolor{subheadings}{HTML}{003333} % The color of subsections and places worked/studied
+\definecolor{musicheadings}{HTML}{004444} % The color of subsections and places worked/studied
 \definecolor{date}{HTML}{666666} % The color used for the Last Updated text at the top right
-\definecolor{background}{HTML}{bbccc0} % The color used for the Last Updated text at the top right
+\definecolor{background}{HTML}{d0e0e0} % The color used for the Last Updated text at the top right
 
 %----------------------------------------------------------------------------------------
 %	FONTS
@@ -48,7 +49,7 @@
 		\color{duration} % Use the headings color
 		\fontspec[Path = fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{14pt}\selectfont #3
 	\end{flushleft}
-	\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.4pt}} % Horizontal rule
+	\noindent\makebox[\linewidth]{\color{headings}\rule{\paperwidth}{0.3pt}} % Horizontal rule
 	\vspace{-5pt} % Reduce whitespace after the rule slightly
 }
 
